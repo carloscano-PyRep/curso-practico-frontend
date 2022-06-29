@@ -11,40 +11,20 @@
     <title>Login</title>
 </head>
 <body>
-    <div class="screen">
-        <div class="container">
-            <img src="./logos/logo_yard_sale.svg" alt="logo" class="logo-login">
+    <div class="login-height">
+        <div class="form-container">
+            <img src="./logos/logo_yard_sale.svg" alt="logo" class="logo">
             <form action="/" class="form">
-                <label 
-                for="email-adress" 
-                class="label">Email address
-                </label>
-                <input
-                type="text"
-                name=""
-                id="email-adress"
-                placeholder="email@gmail.com"
-                class="input-email"
-                required>
-
-                <label 
-                for="email-password"
-                class="label">Password
-                </label>
-                <input
-                type="password"
-                name=""
-                id="email-password"
-                placeholder="*******"
-                class="input-password"
-                required>
-                
-                <input type="submit" 
-                value="Log in" 
-                class="button-login-primary">
-                <a href="/">Forgot my password</a>
+                <label for="passw" class="label">Email address</label>
+                <input type="password" id="passw" placeholder="email@gmail.com" class="input input-password">
+                <label for="re-passw" class="label">Password</label>
+                <input type="password" id="re-passw" placeholder="*****" class="input input-password">
+                <input type="submit" value="Log in" class="primary-button login-button">
             </form>
-            <button class="button-signup-secondary">Sign up</button>
+            <span class="resend">
+                <a href="/">Forgot my password</a>
+            </span>
+            <button class="secondary-button">Sign up</button>
         </div>
     </div>
 </body>
